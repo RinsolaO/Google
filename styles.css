@@ -97,6 +97,11 @@ input[type="text"] {
     margin-bottom: 1.5rem;
 }
 
+.button-style:hover {
+    border: 1px groove #f8f9fa;
+    
+}
+
 .button-style {
     margin-right: .4rem;
     border: 1px solid #f8f9fa;
