@@ -1,207 +1,208 @@
 body{
- font-family: Arial, sans-serif;
- text-align: center;
-}
-
-body a:hover {
-    text-decoration: underline; 
-}
-
-.nav-bar {
-    display: flex;
-    position: absolute;
-    right: .2rem;
-    top: .2rem;
-}
-
-.nav-bar ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.nav-bar li {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-right: 2rem;
-}
-.nav-bar a {
-    font-size: 13px;
-    text-decoration: none;
-    color: #000000DE;
-}
-
-.resize-image {
-    width: 24px;
-    height: 24px;
-    opacity: .6;
-}
-
-.profile-image {    
-    width: 32px;
-    height: 32px;
-    border-radius: 20px;
-}
-
-.google-logo {
-    margin-top: 9rem;
-    width: 272px;
-    height: 92px;
-}
-
-.search-tab {
-    margin-top: 1rem; 
-    
-}
-
-.mic {
-    opacity: 1;
-    position: absolute;    
-    right: 22rem;
-    padding: .8rem;    
-}
-.search-bar {
-    opacity: .1;    
-    
-}
-
-.search-bar:hover {
-    background-color: #ffffff;
-    opacity: 1;
-    border: 2px groove white;
-}
-
-.search-icon {
-    opacity: .4;    
-    position: absolute;
-    left: 22rem;
-    padding: .8rem;
-    width: 20px;
-    height: 20px;
-}
-
-
-input[type="text"] {
-    border: 1px groove rgb(59, 58, 58);
-    width: 582px;
-    height: 44px;
-    color: #000000;
-    background: #ffffff;
-    border-radius: 30px;
-
-}
-
-.google-buttons {
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-.button-style:hover {
-    border: 1px groove #f8f9fa;
-    
-}
-
-.button-style {
-    margin-right: .4rem;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    background-color: #f8f9fa;
-    width: 142px;
-    height: 36px;
-    color: black;
-    line-height: 27px;
-    font-size: 14px;
-}
-
-.ramadan a {
-    text-decoration: none;
-    color: #1A0DAB;
-    font-size: 13px;
-}
-
-.lang {
-    font-size: 13px;    
-}
-
-.lang a {
-    padding-right: 10px;
-    text-decoration: none;
-    color: #1A0DAB;
-}
-
-.footer-container {
-    position: absolute;
-    right: 0rem;
-    left: 0rem;
-    bottom: 0rem;
-    padding-bottom: 0;
-    /* margin-top: 9rem; */
-    color: rgba(0,0,0,.54);
-    
-}
-
-.nigeria {
-    background-color: #f2f2f2;
-    width: 1263.33px;
-    height: 48.33px;
-    width: 1263.33px;
-    height: 48.33px;
-    background-color: #f2f2f2;    
-    border-bottom: 1px solid #dadce0;   
-}
-
-.nigeria p {
-    position: absolute;
-    left: 2rem;
-    font-size: 15px;
-}
-.footer-container a {
-    text-decoration: none;
-    color: rgba(0,0,0,.54);
-    
-}
-
-.footer-grid li {
-    list-style: none;
-    padding-left: 1rem;
-}
-
-.footer-grid {
-    font-size: 14px;
-    background-color: #f2f2f2;
-    color: rgba(0,0,0,.54);
-    width: 1263.33px;
-    height: 47.33px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "footer-left carbon footer-right"; 
-    align-items: center;
-}
-
-.footer-left {
-    padding-left: 1.2rem;    
-    grid-area: footer-left;
-    display: flex;
-    justify-content: space-between;        
-}
-
-.carbon {
-    grid-area: carbon;
-    
-}
-
-.carbon-img {
-    width: 12.25px;
-    height: 14px;    
-}
-
-.footer-right {
-    grid-area: footer-right;
-    display: flex;
-    justify-content: flex-end; 
-    padding-right: 1rem;
-    
-}
-
+    font-family: Arial, sans-serif;
+    text-align: center;
+   }
+   
+   body a:hover {
+       text-decoration: underline; 
+   }
+   
+   .nav-bar {
+       display: flex;
+       position: absolute;
+       right: .2rem;
+       top: .2rem;
+   }
+   
+   .nav-bar ul {
+       list-style: none;
+       display: flex;
+       justify-content: center;
+   }
+   
+   .nav-bar li {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       margin-right: 2rem;
+   }
+   .nav-bar a {
+       font-size: 13px;
+       text-decoration: none;
+       color: #000000DE;
+   }
+   
+   .resize-image {
+       width: 24px;
+       height: 24px;
+       opacity: .6;
+   }
+   
+   .profile-image {    
+       width: 32px;
+       height: 32px;
+       border-radius: 20px;
+   }
+   
+   .google-logo {
+       margin-top: 9rem;
+       width: 272px;
+       height: 92px;
+   }
+   
+   .search-tab {
+       margin-top: 1rem; 
+       
+   }
+   
+   .mic {
+       opacity: 1;
+       position: absolute;    
+       right: 22rem;
+       padding: .8rem;    
+   }
+   .search-bar {
+       opacity: .1;    
+       
+   }
+   
+   .search-bar:hover {
+       background-color: #ffffff;
+       opacity: 1;
+       border: 2px groove white;
+   }
+   
+   .search-icon {
+       opacity: .4;    
+       position: absolute;
+       left: 22rem;
+       padding: .8rem;
+       width: 20px;
+       height: 20px;
+   }
+   
+   
+   input[type="text"] {
+       border: 1px groove rgb(59, 58, 58);
+       width: 582px;
+       height: 44px;
+       color: #000000;
+       background: #ffffff;
+       border-radius: 30px;
+   
+   }
+   
+   .google-buttons {
+       margin-top: 2rem;
+       margin-bottom: 1.5rem;
+   }
+   
+   .button-style:hover {
+       border: 2px groove #f8f9fa;
+       
+   }
+   
+   .button-style {
+       margin-right: .4rem;
+       border: 1px solid #f8f9fa;
+       border-radius: 4px;
+       background-color: #f8f9fa;
+       width: 142px;
+       height: 36px;
+       color: black;
+       line-height: 27px;
+       font-size: 14px;
+   }
+   
+   .ramadan a {
+       text-decoration: none;
+       color: #1A0DAB;
+       font-size: 13px;
+   }
+   
+   .lang {
+       font-size: 13px;    
+   }
+   
+   .lang a {
+       padding-right: 10px;
+       text-decoration: none;
+       color: #1A0DAB;
+   }
+   
+   .footer-container {
+       position: absolute;
+       right: 0rem;
+       left: 0rem;
+       bottom: 0rem;
+       padding-bottom: 0;
+       /* margin-top: 9rem; */
+       color: rgba(0,0,0,.54);
+       
+   }
+   
+   .nigeria {
+       background-color: #f2f2f2;
+       width: 1263.33px;
+       height: 48.33px;
+       width: 1263.33px;
+       height: 48.33px;
+       background-color: #f2f2f2;    
+       border-bottom: 1px solid #dadce0;   
+   }
+   
+   .nigeria p {
+       position: absolute;
+       left: 2rem;
+       font-size: 15px;
+   }
+   .footer-container a {
+       text-decoration: none;
+       color: rgba(0,0,0,.54);
+       
+   }
+   
+   .footer-grid li {
+       list-style: none;
+       padding-left: 1rem;
+   }
+   
+   .footer-grid {
+       font-size: 14px;
+       background-color: #f2f2f2;
+       color: rgba(0,0,0,.54);
+       width: 1263.33px;
+       height: 47.33px;
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-areas: 
+       "footer-left carbon footer-right"; 
+       align-items: center;
+   }
+   
+   .footer-left {
+       padding-left: 1.2rem;    
+       grid-area: footer-left;
+       display: flex;
+       justify-content: space-between;        
+   }
+   
+   .carbon {
+       grid-area: carbon;
+       
+   }
+   
+   .carbon-img {
+       width: 12.25px;
+       height: 14px;    
+   }
+   
+   .footer-right {
+       grid-area: footer-right;
+       display: flex;
+       justify-content: flex-end; 
+       padding-right: 1rem;
+       
+   }
+   
+   
